@@ -1,7 +1,7 @@
 const caesar = require('./caesar')
 
 test('works with single letters', () => {
-  expect(caesar('A', 1)).toBe('B');
+  expect(caesar('ABCDE', 1)).toBe('B');
 });
 test.skip('works with words', () => {
   expect(caesar('Aaa', 1)).toBe('Bbb');

@@ -1,4 +1,6 @@
-const caesar = function() {
+const caesar = function(string, offSet) {
+    codeArray = [...string];
+    let encoded = []
 
 };
 
